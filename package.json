@@ -1,0 +1,14 @@
+{
+  "name": "lushop",
+  "version": "2.0.0",
+  "description": "eCommerce application built with the MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "author": "LuciaBortolozzi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
