@@ -1,6 +1,7 @@
 {
   "name": "lushop",
   "version": "2.0.0",
+  "type": "module",
   "description": "eCommerce application built with the MERN stack",
   "main": "server.js",
   "scripts": {
@@ -12,11 +13,12 @@
   "author": "LuciaBortolozzi",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "concurrently": "^9.1.0",
-    "dotenv": "^16.4.5",
     "nodemon": "^3.1.7"
   }
 }
